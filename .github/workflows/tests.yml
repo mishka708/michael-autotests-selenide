@@ -28,6 +28,7 @@ jobs:
 
       - name: Run Tests & Generate Report
         run: |
+          chmod +x gradlew          
           ./gradlew clean test allureReport
 
       - name: Deploy Allure Results
@@ -41,4 +42,4 @@ jobs:
         if: always()
         with:
           allure_results: build/allure-results
-          report_title: TextBox Test Results
+          report_name: TextBox Test Results
