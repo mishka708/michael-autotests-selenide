@@ -28,8 +28,7 @@ jobs:
 
       - name: Run Tests & Generate Report
         run: |
-          chmod +x gradlew          
-          ./gradlew clean test allureReport
+          gradle clean test allureReport
 
       - name: Deploy Allure Results
         uses: actions/upload-artifact@v4
