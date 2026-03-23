@@ -44,4 +44,8 @@ test {
         events "passed", "failed", "skipped"
     }
     systemProperty "allure.results.directory", "$buildDir/allure-results"
+
+    systemProperty "selenide.headless", "true"
+    systemProperty "selenide.browser", "chrome"
+    systemProperty "selenide.args", "--no-sandbox,--disable-dev-shm-usage,--disable-gpu"
 }
