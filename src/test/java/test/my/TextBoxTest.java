@@ -39,8 +39,8 @@ public class TextBoxTest {
                 .inputName(name)
                 .inputEmail(email)
                 .inputCurrentAddress(address1)
-                .inputPermanentAddress(address3)
+                .inputPermanentAddress(address2)
                 .inputClick()
                 .checkFields(name, email, address1, address2);
     }
-}
+} //
