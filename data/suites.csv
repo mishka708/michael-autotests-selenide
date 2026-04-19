@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Apr 19 17:29:10 UTC 2026","Sun Apr 19 17:29:14 UTC 2026","4602","","test.my.UserPageTest","","test.my.UserPageTest","pageTest","pageTest()",""
-"passed","Sun Apr 19 17:28:58 UTC 2026","Sun Apr 19 17:29:10 UTC 2026","11495","","test.my.TextBoxTest","","test.my.TextBoxTest","textBoxTest","textBoxTest()",""
